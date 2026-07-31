@@ -12,6 +12,6 @@ Testem com pelo menos 5 funcionários e horas variadas, incluindo casos de hora 
 
 ## O que entregar nesta pasta
 
-- `avaliacao.py`
+- `avaliacao.alg` ou `avaliacao.py`
 
 Evite espaços e acentos nos nomes dos arquivos. Depois de resolver, faça o commit e o push conforme as instruções do README principal do repositório.
