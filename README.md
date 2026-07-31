@@ -1,7 +1,7 @@
 # Iteam-Logica-de-programacao-turma2
 
 
-# 💻 Curso de Full Stack - Instituto Tecnológico da Amazônia
+# 💻 Curso de Full Stack - Instituto Tecnológico Educacional da Amazônia
 ## Módulo 01 - Lógica de Programação e Algoritmos
 
 Bem-vindo(a)!
