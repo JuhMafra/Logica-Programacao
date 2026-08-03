@@ -1,7 +1,7 @@
 Algoritmo "ex06"
 
 
-
+//Aluna Juliana Mafra
 var
   saldo: real
   saque: real

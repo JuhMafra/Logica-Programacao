@@ -1,6 +1,6 @@
 Algoritmo "ex02"
 
-
+//Aluna Juliana Mafra
 
 var 
 	nome: caractere

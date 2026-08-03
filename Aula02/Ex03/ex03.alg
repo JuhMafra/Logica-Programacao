@@ -1,6 +1,6 @@
 Algoritmo "ex03"
 
-
+//Aluna Juliana Mafra
 
 var 
 	n: inteiro

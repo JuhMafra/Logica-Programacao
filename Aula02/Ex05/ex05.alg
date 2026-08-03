@@ -1,7 +1,7 @@
 Algoritmo "ex05"
 
 
-
+//Aluna Juliana Mafra
 var 
 	n: inteiro
 
