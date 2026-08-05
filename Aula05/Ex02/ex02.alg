@@ -1,5 +1,5 @@
 Algoritmo "ex02"
-
+//aluna Juliana Mafra
 
 Var
   salario:real
