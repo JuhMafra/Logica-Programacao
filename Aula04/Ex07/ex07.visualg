@@ -1,0 +1,19 @@
+algoritmo "ex7"
+//aluna Juliana Mafra
+var
+  admin:caracter
+  senha:caractere
+  senhad:caracter
+inicio
+  senha<-"haha"
+  escreval("Vc é administrador? S/N")
+  leia(admin)
+  escreval("Digite senha valida?")
+  leia(senhad)
+  se admin="s" ou senha=senhad entao
+    escreval ("Entrada permitida")
+  senao
+    escreval("Entrada negada")
+  fimse
+
+fimalgoritmo

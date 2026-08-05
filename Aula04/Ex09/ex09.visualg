@@ -1,0 +1,28 @@
+algoritmo "ex9"
+//aluna Juliana Mafra
+var
+  func:caracter
+  cracha:caracter
+  acomp:caracter
+  auto:caracter
+
+inicio
+  escreval("Vc é funcionario? S/N")
+  leia(func)
+  escreval("Vc tem cracha? S/N")
+  leia(cracha)
+  escreval("Esta acompanhado? S/N")
+  leia(acomp)
+  escreval("Possui autorizacao? S/N")
+  leia(auto)
+  se func="s" e cracha="s" entao
+    escreval("entrada autorizada")
+  
+  senao
+    se acomp="s" ou auto="s" entao
+     escreval("entrada autorizada")
+     senao
+    escreval("entrada negada")
+    fimse
+  fimse
+fimalgoritmo

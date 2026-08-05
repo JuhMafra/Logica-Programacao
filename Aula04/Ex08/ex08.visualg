@@ -1,0 +1,18 @@
+algoritmo "ex8"
+//aluna Juliana Mafra
+var
+  vip:caracter
+  compra:real
+
+inicio
+  escreval("Vc é VIP? S/N")
+  leia(vip)
+  escreval("Valor da compra:")
+  leia(compra)
+  se vip="s" e compra>300 entao
+    escreval ("Terá desconto")
+  senao
+    escreval("Não Terá desconto")
+  fimse
+
+fimalgoritmo

@@ -1,0 +1,17 @@
+algoritmo "ex6"
+//aluna Juliana Mafra
+var
+  matricula:caracter
+  cracha:caracter
+inicio
+   escreval("Vc tem matricula? S/N")
+  leia(matricula)
+  escreval("Vc tem cracha? S/N")
+  leia(cracha)
+  se matricula="s" e cracha="s" entao
+  escreval ("Entrada permitida")
+  senao
+  escreval("Entrada negada")
+  fimse
+
+fimalgoritmo
