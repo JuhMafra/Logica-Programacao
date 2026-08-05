@@ -1,0 +1,49 @@
+algoritmo "ex20"
+//aluna Juliana Mafra
+var
+  nota:inteiro
+  qtd:inteiro
+  soma:inteiro
+  media:real
+  nota5:inteiro
+  nota1:inteiro
+
+inicio
+  qtd<-0
+  soma<-0
+  nota5<-0
+  nota1<-0
+  nota<-1
+  enquanto nota<>0 faca
+    escreval("Digite a nota do cliente ",qtd+1," (0 para encerrar): ")
+    leia(nota)
+    se nota<=5 e nota>=0 entao
+      qtd<-qtd+1
+      se nota = 0 entao
+        qtd<-qtd-1
+      fimse
+      soma<-soma+nota
+      se nota=5 entao
+        nota5<-nota5+1
+      fimse
+      se nota=1 entao
+        nota1<-nota1+1
+      fimse
+    senao
+      escreval("nota invalida.. digite novamente")
+
+    fimse
+    
+  fimenquanto
+  limpatela
+  se qtd>0 entao
+    media<-soma/qtd
+    escreval("Quantidade de respostas: ",qtd)
+    escreval("Media das notas: ",media:3:2)
+    escreval("Quantidade de notas 5: ",nota5)
+    escreval("Quantidade de notas 1: ",nota1)
+  senao
+    escreval("Nenhuma resposta foi registrada")
+  fimse
+
+fimalgoritmo

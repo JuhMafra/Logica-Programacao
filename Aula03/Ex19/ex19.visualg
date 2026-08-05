@@ -1,0 +1,30 @@
+algoritmo "ex19"
+//Aluna Juliana Mafra
+var
+  saldo:real
+  saque:real
+  op:caractere
+
+inicio
+  escreval("Digite o saldo inicial: ")
+  leia(saldo)
+  op<-"s"
+  enquanto saldo>0 e op="s" faca
+    limpatela
+    escreval("Saldo atual: ",saldo)
+    escreval("Digite o valor do saque: ")
+    leia(saque)
+    se saque<=saldo entao
+      saldo<-saldo-saque
+      escreval("Saque realizado")
+    senao
+      escreval("Saldo insuficiente")
+    fimse
+    se saldo>0 entao
+      escreval("Deseja continuar? (s/n)")
+      leia(op)
+    fimse
+    limpatela
+  fimenquanto
+  escreval("Saldo final: ",saldo)
+fimalgoritmo

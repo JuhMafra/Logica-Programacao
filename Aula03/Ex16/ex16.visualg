@@ -1,0 +1,57 @@
+algoritmo "ex16"
+
+//ALuna Juliana Mafra
+var
+  voto:inteiro
+  i: inteiro
+  maria:inteiro
+  joao:inteiro
+  carlos:inteiro
+inicio
+
+  i<-1
+  maria<-0
+  joao<-0
+  carlos<-0
+
+  enquanto i<=3 faca
+    escreval("---  Votação ---")
+    escreval("--  1- Joao   --")
+    escreval("--  2- Maria  --")
+    escreval("--  3- Carlos --")
+    escreval("----------------")
+    escreval("Digita o voto ",i)
+    leia(voto)
+    escolha voto
+      caso 1
+        joao<-joao+1
+        i<- i + 1
+      caso 2
+        maria<-maria+1
+        i<- i + 1
+      caso 3
+        carlos<-carlos+1
+        i<- i + 1
+      outrocaso
+        escreval("Voto invalido, vote novamente")
+    fimescolha
+    limpatela
+  fimenquanto
+
+  escreval("Maria recebeu ",maria," votos")
+  escreval("Joao recebeu ",joao," votos")
+  escreval("Carlos recebeu ",carlos," votos")
+  escreval()
+  se maria > joao e maria > carlos entao
+    escreval("Maria venceu!")
+  fimse
+  se joao > maria e joao > carlos entao
+    escreval("João venceu!")
+  fimse
+  se carlos > maria e carlos > joao entao
+    escreval("Carlos venceu!")
+  fimse
+  se maria = joao ou maria = carlos ou joao = carlos entao
+    escreval("Houve Empate!")
+  fimse
+fimalgoritmo

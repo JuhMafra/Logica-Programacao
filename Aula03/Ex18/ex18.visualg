@@ -1,0 +1,21 @@
+algoritmo "ex18"
+
+//ALuna Juliana Mafra
+var
+  senha:caractere
+  senhad:caractere
+inicio
+  senha<-"haha"
+  enquanto senha <> senhad faca
+    escreval("digite a senha: ")
+    leia(senhad)
+    se senha <> senhad entao
+      limpatela
+      escreval("senha digita esta errada")
+    senao 
+      escreval("senha correta!")
+    fimse
+    
+  fimenquanto
+
+fimalgoritmo

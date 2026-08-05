@@ -1,0 +1,31 @@
+algoritmo "ex15"
+
+//ALuna Juliana Mafra
+var
+  idade: vetor[1..10] de inteiro
+  i: inteiro
+  maior:inteiro
+  menor:inteiro
+
+inicio
+
+  i<-1
+  menor<-0
+  maior<-0
+  enquanto i<=10 faca
+    escreval("Digita a idade numero ",i)
+    leia(idade[i])
+    i<- i + 1
+  fimenquanto
+  i<-1
+  enquanto i<=10 faca
+    se idade[i]<18 entao
+      menor<-menor+1
+    senao
+      maior<-maior+1
+    fimse
+    i<-i+1
+  fimenquanto
+  escreval("Nessa lista tem ",maior," maior de idade e ",menor," menor de idade")
+
+fimalgoritmo

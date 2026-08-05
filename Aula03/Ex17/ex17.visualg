@@ -1,0 +1,30 @@
+algoritmo "ex17"
+//ALuna Juliana Mafra
+var
+  qtd:inteiro
+  i:inteiro
+  media:real
+  aprov:inteiro
+  reprov:inteiro
+inicio
+  escreval("Digite a quantidade de alunos: ")
+  leia(qtd)
+  i<-1
+  aprov<-0
+  reprov<-0
+  enquanto i<=qtd faca
+    
+    escreval("Digite a media do aluno ",i)
+    leia(media)
+    se media>=7 entao
+      aprov<-aprov+1
+    senao
+      reprov<-reprov+1
+    fimse
+    i<-i+1
+    limpatela
+  fimenquanto
+  
+  escreval("Quantidade de aprovados: ",aprov)
+  escreval("Quantidade de reprovados: ",reprov)
+fimalgoritmo
