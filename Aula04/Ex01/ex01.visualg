@@ -1,0 +1,14 @@
+algoritmo "ex1"
+//aluna Juliana Mafra
+var
+  idade:inteiro
+
+inicio
+  escreval("Digite a sua idade")
+  leia(idade)
+  se idade>18 entao
+  escreval ("emprestimo aprovado")
+  senao
+  escreval("emprestimo negado")
+  fimse
+fimalgoritmo

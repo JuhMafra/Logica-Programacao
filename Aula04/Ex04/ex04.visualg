@@ -1,0 +1,18 @@
+algoritmo "ex4"
+//aluna Juliana Mafra
+//Leia a velocidade de um veículo. Se estiver entre 80 e 85 km/h a pessoa está na tolerância e recebe uma carta de advertência; acima de 85 km/h é multada direto; abaixo da tolerância recebe uma mensagem de parabéns.
+var
+  v:real
+inicio
+  escreval("Digite a velocidade")
+  leia(v)
+  se v>79 e v<86 entao
+  escreval ("Voce será advertido")
+  senao
+    se v>85entao
+      escreval("Voce sera Multado!!")
+    senao
+      escreval("Velocidade correta parabens")
+    fimse
+  fimse
+fimalgoritmo

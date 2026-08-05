@@ -1,0 +1,20 @@
+algoritmo "ex3"
+//aluna Juliana Mafra
+var
+  valorp1:real
+valorp2:real
+inicio
+  escreval("Digite a valor do produto 1")
+  leia(valorp1)
+  escreval("Digite a valor do produto 2")
+  leia(valorp2)
+  se valorp1<valorp2 entao
+  escreval ("Produto 2 é mais caro")
+  senao
+    se valorp1=valorp2 entao
+      escreval("Valores iguais")
+    senao
+      escreval("Produto 1 é mais caro")
+    fimse
+  fimse
+fimalgoritmo

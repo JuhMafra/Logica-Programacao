@@ -1,0 +1,14 @@
+algoritmo "ex2"
+//aluna Juliana Mafra
+var
+  qtd:inteiro
+
+inicio
+  escreval("Digite a quantidade do produto")
+  leia(qtd)
+  se qtd<=10 entao
+  escreval ("Reposição necessária")
+  senao
+  escreval("Estoque suficiente")
+  fimse
+fimalgoritmo
