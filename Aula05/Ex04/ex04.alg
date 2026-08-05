@@ -1,5 +1,5 @@
 Algoritmo "ex04"
-
+//aluna Juliana Mafra
 
 Var
   op:inteiro
