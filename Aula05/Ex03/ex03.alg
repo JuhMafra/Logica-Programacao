@@ -1,5 +1,5 @@
 Algoritmo "ex03"
-
+//aluna Juliana Mafra
 
 Var
   compra:real
