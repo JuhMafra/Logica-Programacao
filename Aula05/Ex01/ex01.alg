@@ -1,6 +1,6 @@
 Algoritmo "ex01"
 
-
+//aluna Juliana Mafra
 Var
 altura:real
 peso:real
