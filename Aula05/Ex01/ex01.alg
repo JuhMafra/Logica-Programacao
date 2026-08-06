@@ -16,10 +16,10 @@ Inicio
     se imc<18.5 entao
     	 escreval("Abaixo do peso")
 		senao
-    	se imc>=18.5 e imc<=24.9 entao
+    	se imc>=18.5 e imc<25 entao
     	 escreval("Peso normal")
       senao
-      	se imc>=25 e imc<=29.9 entao
+      	se imc>=25 e imc<30 entao
     	 	escreval("Sobrepeso") 
         senao
         	se imc>=30 entao

@@ -6,7 +6,7 @@ var
 inicio
   escreval("Digite a sua idade")
   leia(idade)
-  se idade>18 entao
+  se idade>=18 entao
   escreval ("emprestimo aprovado")
   senao
   escreval("emprestimo negado")
