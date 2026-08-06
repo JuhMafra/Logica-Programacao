@@ -6,7 +6,7 @@ var
 inicio
   escreval("Digite a velocidade")
   leia(v)
-  se v>79 e v<86 entao
+  se v >= 80 e v <= 85 entao
   escreval ("Voce será advertido")
   senao
     se v>85entao
