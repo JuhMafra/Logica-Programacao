@@ -9,7 +9,7 @@ Inicio
 	i<-1
     escreval("Digite o numero")
     leia(n)
-    se n>5 entao
+    se n>=5 entao
     	escreval("O multiplos de 5 dentro de ",n," são:")
     	enquanto i <=n faca
     		se i mod 5 = 0 entao
