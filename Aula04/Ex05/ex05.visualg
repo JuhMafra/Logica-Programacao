@@ -6,7 +6,7 @@ var
 inicio
    escreval("Digite a nota")
   leia(nota)
-  se nota>70 entao
+  se nota>=70 entao
   escreval ("Aprovado")
   senao
   escreval("Reprovado")
