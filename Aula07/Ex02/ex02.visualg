@@ -10,11 +10,11 @@ inicio
     leia(n[i])
     se i=0 entao //pra pegar os dados da primeira posicao digitada
       maior<-n[i]
-      p<-i
+      p<-i+1
     senao
       se maior<n[i] entao // compara se os proximos vao ser maior que o a variavel maior, se for maior e p recebem o valor e a posicao
         maior<-n[i]
-        p<-i
+        p<-i+1
       fimse
     fimse
   fimpara
