@@ -1,0 +1,29 @@
+algoritmo "ex01"
+//aluna juliana mafra
+var
+  notas: vetor[0..4] de real
+  aux:real
+  i,j:inteiro
+inicio
+
+  para i de 0 ate 4 faca
+    escreval("digite a nota do aluno ",i+1)
+    leia(notas[i])
+  fimpara
+  para i de 0 ate 4 faca
+    escreval("Nota do aluno ",i+1," ",notas[i])
+  fimpara
+  para i de 0 ate 3 faca// aqui vai ter a comparação do atual ate o final, e caso o que tiver andando for maior, vai trocar de lugar com o atual.
+    para j de i+1 ate 4 faca
+      se notas[j]>notas[i] entao
+        aux<-notas[i]
+        notas[i]<-notas[j]
+        notas[j]<-aux
+      fimse
+    fimpara
+  fimpara
+  escreval("notas em ordem descrecente")
+  para i de 0 ate 4 faca
+    escreval(notas[i])
+  fimpara
+fimalgoritmo

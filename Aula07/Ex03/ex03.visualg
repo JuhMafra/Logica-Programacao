@@ -1,0 +1,30 @@
+algoritmo "ex03"
+//aluna juliana mafra
+var
+  notas: vetor[0..10] de real
+  media, total: real
+  i,acima:inteiro
+
+inicio
+  total<-0
+  media<-0
+  acima<-0
+  para i de 0 ate 9 faca
+    escreval("digite a nota do aluno ",i+1)
+    leia(notas[i])
+    total<-total+notas[i] //vai somando as notas
+  fimpara
+  media<-total/(i+1)//tirar a media das notas
+  limpatela
+  escreval("A media da turma foi de ", media:3:2)
+  escreva("Nota dos alunos ")
+  para i de 0 ate 9 faca
+    escreva(" | ",notas[i])
+    se notas[i]>=media entao //se a nota for maior ou igual a media adiciona na variavel de controle
+      acima<-acima+1
+    fimse
+  fimpara
+  escreva(" |")
+  escreval("")
+  escreval(acima," alunos tiveram notas igual ou maior que a media")
+fimalgoritmo

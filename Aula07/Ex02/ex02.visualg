@@ -1,0 +1,22 @@
+algoritmo "ex02"
+//aluna juliana mafra
+var
+  n: vetor[0..7] de inteiro
+  maior,p,i: inteiro
+
+inicio
+  para i de 0 ate 7 faca
+    escreval("digite o numero ",i+1)
+    leia(n[i])
+    se i=0 entao //pra pegar os dados da primeira posicao digitada
+      maior<-n[i]
+      p<-i+1
+    senao
+      se maior<n[i] entao // compara se os proximos vao ser maior que o a variavel maior, se for maior e p recebem o valor e a posicao
+        maior<-n[i]
+        p<-i+1
+      fimse
+    fimse
+  fimpara
+  escreval("O maior numero digitado foi ",maior," na posicao ",p)//exibe a maior varial e a posicao dela
+fimalgoritmo
