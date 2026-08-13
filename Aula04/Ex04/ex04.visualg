@@ -9,7 +9,7 @@ inicio
   se v >= 80 e v <= 85 entao
   escreval ("Voce será advertido")
   senao
-    se v>85entao
+    se v>85 entao
       escreval("Voce sera Multado!!")
     senao
       escreval("Velocidade correta parabens")
