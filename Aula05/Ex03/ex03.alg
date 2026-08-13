@@ -10,7 +10,7 @@ Inicio
   leia(compra)
 
   se compra<=100 entao
-    escreval("Não tem direito a desconto, pagar valor integral.")
+    escreval("Não tem direito a desconto, 0% de desconto.")
      escreval("Valor da compra: R$",compra:8:2," - Valor a Pagar: R$",compra:8:2)
   senao
     se compra>100 e compra<=300 entao
